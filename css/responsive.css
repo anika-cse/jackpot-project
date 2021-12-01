@@ -1,0 +1,388 @@
+/* ==========================
+      extra-small device starts
+======================== */
+@media (max-width: 575px)
+{
+    .navbar {
+        top: 0;
+        /* background: rgba(166, 0, 133, 0.3); */
+    }
+
+    .navbar .navbar-nav .nav-item:last-of-type {
+        padding-left: 40px !important;
+    }
+
+    /* navbar css ends */
+
+    #banner{
+        padding-bottom: 0 !important;
+    }
+
+    #banner .banner-text h1{
+        font-size: 150px !important;
+    }
+
+    #banner .banner-text h3{
+        padding-top: 30px !important; 
+    }
+
+    /* banner css ends */
+
+    #games{
+        padding-bottom: 0 !important;
+    }
+
+    #games header h1{
+        font-size: 38px !important;
+    }
+
+    #games .games-item{
+        margin-bottom: 30px !important;
+    }
+
+    /* games css ends */
+
+    #spin .spin-text{
+        text-align: center;
+    }
+
+    #spin .spin-text header h1{
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+        font-size: 38px !important;
+    }
+
+    #spin .spin-text p:last-of-type {
+        padding-bottom: 30px !important;
+    }
+    
+    /* spin css ends */
+
+    #pricing {
+        padding-top: 35px !important;
+        padding-bottom: 50px !important;
+    }
+
+    #pricing header h1{
+        font-size: 38px !important;
+    }
+
+    #pricing .pricing-item .pricing-text .pricing-btn {
+        top: 465px !important;
+    }
+
+    #pricing .pricing-item{
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+    }
+
+    /* pricing plan css ends */
+
+    #faq-tournament {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+
+    #faq-tournament header h1 {
+        font-size: 28px !important;
+        text-align: center;
+    }
+
+    #faq-tournament header h1::after{
+        display: none !important;
+    }
+
+    #faq-tournament .tournament-count h3 {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+
+    #faq-tournament .tournament-count #countdown{
+        display: block !important;
+    }
+
+    #faq-tournament .wrapper{
+        margin-bottom: 15px !important;
+    }
+
+    /* faq css ends */
+
+    #subscribe .payment-title h3{
+        padding-top: 30px !important;
+    }
+
+    #subscribe .subscribe-offer .form-part input{
+        width: 240px !important;
+    }
+
+    #subscribe .payment-title .payment-method{
+        margin-bottom: 10px !important;
+    }
+
+    /* subscribe css ends */
+
+    footer .jackpot{
+        text-align: center;
+    }
+
+    footer .jackpot ul{
+        padding-left: 25px !important;
+    }
+
+    footer .footer-links{
+        text-align: center;
+    }
+
+    footer .footer-links h3{
+        text-align: center;
+        padding-top: 15px !important;
+    }
+
+    footer .security-info{
+        text-align: center;
+        padding-bottom: 30px !important;
+    }
+
+    /* footer css ends */
+
+}
+
+/* ==========================
+      extra-small device ends
+======================== */
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+    .navbar {
+        top: 0;
+        /* background: rgba(166, 0, 133, 0.3); */
+    }
+
+    .navbar .navbar-nav .nav-item:last-of-type {
+        padding-left: 40px !important;
+    }
+
+    /* navbar css ends */
+
+    #banner{
+        padding-bottom: 0 !important;
+    }
+
+    #banner .banner-text h3{
+        padding-top: 30px !important; 
+    }
+
+    /* banner css ends */
+
+    #games{
+        padding-bottom: 0 !important;
+    }
+
+    #games .games-item{
+        margin-bottom: 30px !important;
+    }
+
+    /* games css ends */
+
+    #spin .spin-text{
+        text-align: center;
+    }
+
+    #spin .spin-text header h1{
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+        font-size: 38px !important;
+    }
+
+    #spin .spin-text p:last-of-type {
+        padding-bottom: 30px !important;
+    }
+    
+    /* spin css ends */
+
+    #pricing {
+        padding-top: 35px !important;
+        padding-bottom: 50px !important;
+    }
+
+    #pricing header h1{
+        font-size: 38px !important;
+    }
+
+    #pricing .pricing-item .pricing-text .pricing-btn {
+        top: 465px !important;
+    }
+
+    /* pricing plan css ends */
+
+    #faq-tournament {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+
+    #faq-tournament .tournament-slider .tournament-item::after{
+        top: 130% !important;
+    }
+
+    /* faq css ends */
+
+    #subscribe .payment-title h3{
+        padding-top: 30px !important;
+    }
+
+    #subscribe .subscribe-offer .form-part input{
+        width: 450px !important;
+    }
+
+    #subscribe .payment-title .payment-method{
+        margin-bottom: 15px !important;
+    }
+
+    /* subscribe css ends */
+    
+    footer .jackpot{
+        text-align: center;
+    }
+
+    footer .jackpot ul{
+        padding-left: 130px !important;
+    }
+
+    footer .footer-links{
+        text-align: center;
+    }
+
+    footer .footer-links h3{
+        text-align: center;
+        padding-top: 15px !important;
+    }
+
+    footer .security-info{
+        text-align: center;
+        padding-bottom: 30px !important;
+    }
+
+    /* footer css ends */
+
+}
+
+/* ==========================
+    small device ends
+======================== */
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .navbar .navbar-nav .nav-item:last-of-type {
+        padding-left: 40px !important;
+    }
+
+    /* navbar css ends */
+
+    #banner{
+        padding-bottom: 0 !important;
+    }
+
+    #banner .banner-text h1{
+        font-size: 100px !important;
+    }
+
+    #banner .banner-text h3{
+        padding-top: 30px !important; 
+    }
+
+    /* banner css ends */
+
+    #spin .spin-text header h1 {
+        padding-top: 20px !important;
+        padding-bottom: 30px !important;
+    }
+
+    /* spin css ends */
+
+    
+    #faq-tournament {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+    /* faq css ends */
+
+    #subscribe .payment-title h3{
+        padding-top: 30px !important;
+    }
+
+    #subscribe .subscribe-offer .form-part input{
+        width: 450px !important;
+    }
+
+    #subscribe .payment-title .payment-method{
+        margin-bottom: 15px !important;
+    }
+
+    /* subscribe css ends */
+
+    footer .jackpot{
+        text-align: center;
+    }
+
+    footer .jackpot ul{
+        padding-left: 235px !important;
+    }
+
+    footer .footer-links{
+        text-align: center;
+    }
+
+    footer .footer-links h3{
+        text-align: center;
+        padding-top: 15px !important;
+    }
+
+    footer .security-info{
+        text-align: center;
+        padding-bottom: 30px !important;
+    }
+
+    /* footer css ends */
+}
+
+/* ==========================
+    medium device ends
+======================== */
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    .navbar .navbar-nav .nav-item {
+        padding-left: 25px !important;
+    }
+
+    #banner .banner-text h1{
+        font-size: 250px !important;
+    }
+}
+
+/* ==========================
+    large device ends
+======================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
